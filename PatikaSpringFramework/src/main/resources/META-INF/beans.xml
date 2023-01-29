@@ -7,4 +7,12 @@
         <class>com.patikadev.alternative.Patron1</class>
         <!--<class>com.patikadev.alternative.Patron1</class>-->
     </alternatives>
+
+    <interceptors>
+        <class>com.patikadev.aop.interceptor.InterceptorYolKesiciAsiIs</class>
+    </interceptors>
+
+    <decorators>
+        <class>com.patikadev.aop.decorator.EvDecorator</class>
+    </decorators>
 </beans>
